@@ -1,0 +1,188 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/tawog-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between; /* Ensure space between content and image */
+    align-items: center;
+    height: 80vh;
+    padding: 50px; /* Add padding to visually separate from the navbar */
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 80%;
+    height: auto;
+    max-height: 100%;
+}
+
+.hero-content {
+    animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); /* Adjust the scale factor for the breathing effect */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    padding: 15px 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container {
+    max-width: 200px; /* Adjust this value to make the title smaller or larger */
+}
+
+.tawog-logo {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    transform: scale(1.1); /* Scale up the button slightly on hover */
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+    min-height: 80vh;
+}
+
+.feature {
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.feature .overlay {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.feature .overlay img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.feature .overlay .text {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    transition: bottom 0.3s ease;
+}
+
+.feature:hover .overlay img {
+    transform: scale(1.1);
+}
+
+.feature:hover .overlay .text {
+    bottom: 0;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
