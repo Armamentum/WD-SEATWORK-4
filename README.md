@@ -113,7 +113,7 @@ WD-Seatwork-4
 | cn logo | cartoon network logo for landing page on header and footer | [brandslogos.com](https://images.app.goo.gl/JDynRfaaqkHiVsJc8) |
 | cn hero | cartoon network hero for landing page | [google.com](https://images.app.goo.gl/PHQViASZtsswnoW67) |
 | regular show title img | regular show title for landing page feature button and page | [google.com](https://images.app.goo.gl/X1AakZa4SBHfDGKT6) |
-| regular show hero img | regular show hero for hero section | [google.com](https://images.app.goo.gl/7Mp1hkzuqp9J1nea6) |
+| RS-rock-paper-sza-hero-img | regular show hero for hero section | [google.com](https://images.app.goo.gl/7Mp1hkzuqp9J1nea6) |
 | rs-bg | rs-bg for feature page 1 | [google.com](https://images.app.goo.gl/eLd4UsfCPDSbhzk76) |
 | RS-rigby-img-removebg-preview | rs rigby for feature page | [google.com](https://images.app.goo.gl/C9j6JacYzSRgXVpa6) |
 | RS-concert-img-removebg-preview | rs concert for feature page | [google.com](https://images.app.goo.gl/izrv1CNCNZesvZMu6) |
@@ -122,4 +122,4 @@ WD-Seatwork-4
 | tawog hero1 | tawog hero1 for feature page 2 | [google.com](https://images.app.goo.gl/pi49Ab8oHB4SVwWc6) |
 | tawog-gumball-removebg-preview | tawog gumball for feature page 2 | [google.com](https://images.app.goo.gl/E6wZzXSDKYesakpUA) |
 | tawog-darwin-removebg-preview | tawog darwin for feature page 2 | [google.com](https://images.app.goo.gl/uCsep5yQbrsWqEsS6) |
-| tawog-anais-removebg-preview | tawog anais for feature page 2 | [pinterest.com](https://pin.it/4Pwhkf6za) |
+| tawog-anais-removebg-preview | tawog anais for feature page 2 | [google.com](https://images.app.goo.gl/wLYW3PrgC8tVmUgJ7) |
