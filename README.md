@@ -16,7 +16,7 @@
 
 <br />
 
-![](https://visit-counter.vercel.app/counter.png?page=armamentum.github.io/WD-Seatwork-4/)
+![](https://visit-counter.vercel.app/counter.png?page=armamentum.github.io/WD-SEATWORK-4/)
 
 ---
 
